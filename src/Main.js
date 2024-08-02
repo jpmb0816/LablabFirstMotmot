@@ -13,39 +13,6 @@ let dialogCanvas, dialogCtx;
 // Object used in game
 let sm, camera, fps, map, player, dialog, font;
 
-const qs = [
-  {
-    sp: "TlBD",
-    ct: "SGV5IHRoZXJlLCBhZHZlbnR1cmVyISBJIGhhdmUgc29tZXRoaW5nIHNwZWNpYWwgZm9yIHlvdS4=",
-  },
-  { sp: "UGxheWVy", ct: "V2hhdCBpcyBpdD8=" },
-  {
-    sp: "TlBD",
-    ct: "VGhlcmUgaXMgYSBiZWF1dGlmdWwgc3BvdCBpbiB0aGUgZW5jaGFudGVkIGZvcmVzdCB0aGF0IHlvdSBtdXN0IHZpc2l0LiBJdCdzIGEgYml0IG9mIGEgd2FsaywgYnV0IHRydXN0IG1lLCBpdCdzIHdvcnRoIGl0Lg==",
-  },
-  { sp: "UGxheWVy", ct: "V2hlcmUgZXhhY3RseSBpcyBpdD8=" },
-  {
-    sp: "TlBD",
-    ct: "SGVhZCBub3J0aCBmcm9tIGhlcmUgdW50aWwgeW91IHJlYWNoIHRoZSBvbGQgb2FrIHRyZWUuIEZyb20gdGhlcmUsIGdvIGVhc3QgdW50aWwgeW91IGZpbmQgYSBjbGVhcmluZyB3aXRoIGEgc2luZ2xlIGxhcmdlIHJvY2sgaW4gdGhlIGNlbnRlci4gU3RhbmQgb24gdGhhdCByb2NrIGFuZCBsb29rIHVwIGludG8gdGhlIHNreS4=",
-  },
-  { sp: "UGxheWVy", ct: "V2hhdCdzIHNvIHNwZWNpYWwgYWJvdXQgdGhhdCBzcG90Pw==" },
-  {
-    sp: "TlBD",
-    ct: "WW91J2xsIHNlZSB3aGVuIHlvdSBnZXQgdGhlcmUuIEp1c3QgcmVtZW1iZXIsIHlvdSBtdXN0IHN0YW5kIG9uIHRoZSByb2NrIGFuZCBsb29rIHVwIGludG8gdGhlIHNreS4=",
-  },
-  { sp: "UGxheWVy", ct: "QWxyaWdodCwgSSdtIG9uIG15IHdheSE=" },
-  {
-    sp: "U3lzdGVt",
-    ct: "UGxheWVyIHJlYWNoZXMgdGhlIHNwZWNpZmllZCBzcG90IGFuZCBsb29rcyB1cC4gRmlyZXdvcmtzIHN0YXJ0LCBkaXNwbGF5aW5nIHRoZSBtZXNzYWdlIGluIHRoZSBza3ku",
-  },
-  {
-    sp: "TWVzc2FnZSBpbiB0aGUgU2t5",
-    ct: "SGFwcHkgMXN0IG1vbnRoc2FyeSBiYWJ5IGxhYmxhYiE=",
-  },
-  { sp: "UGxheWVy", ct: "V293LCB0aGlzIGlzIGFtYXppbmch" },
-];
-
-const eqs = qs.map((entry) => ({ sp: atob(entry.sp), ct: atob(entry.ct) }));
 const gameSizeMultiplier = 2;
 
 /**************************************************
@@ -96,7 +63,7 @@ function init() {
 
   // Player
   player = new Player(
-    "Player",
+    "Dianna",
     gridToCoordinate(2),
     gridToCoordinate(2),
     TILE_SIZE,
@@ -154,8 +121,8 @@ function init() {
     canvas.addEventListener("mouseup", updateMouseClick);
   }
 
-  //gameConfig.hasUI = false;
-  map.load("config/map/MysteriousForest/config.json");
+  gameConfig.hasUI = false;
+  map.load("config/map/MysteriousForestNorth/config.json");
 
   // Call render
   render();
@@ -183,7 +150,7 @@ function renderOthers(ctx) {
     ctx,
     "Happy 1st Monthsary",
     "white",
-    map.width / 2 - 145,
+    map.width / 2 - 155,
     map.height / 2,
     19,
     false
@@ -192,7 +159,7 @@ function renderOthers(ctx) {
     ctx,
     "Baby lablab ko!",
     "white",
-    map.width / 2 - 110,
+    map.width / 2 - 118,
     map.height / 2 + 50,
     19,
     false

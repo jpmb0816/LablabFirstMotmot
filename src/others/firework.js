@@ -123,7 +123,7 @@ let fireworks = [];
 function animateFireworks(canvas, deltaTime) {
   const ctx = canvas.getContext("2d");
 
-  if (Math.random() < 0.03) {
+  if (Math.random() < 0.05) {
     const startX = Math.random() * map.width;
     const startY = map.height;
     const targetY = Math.random() * (map.height / 2 + 400); // Target height is above the starting point
