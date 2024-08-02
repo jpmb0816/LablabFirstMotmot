@@ -121,8 +121,8 @@ function init() {
     canvas.addEventListener("mouseup", updateMouseClick);
   }
 
-  gameConfig.hasUI = false;
-  map.load("config/map/MysteriousForestNorth/config.json");
+  //gameConfig.hasUI = false;
+  map.load("config/map/MysteriousForest/config.json");
 
   // Call render
   render();
