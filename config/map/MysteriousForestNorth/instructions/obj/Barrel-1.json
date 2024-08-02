@@ -1,0 +1,22 @@
+{
+	"name": "Barrel",
+	"type": "signpost",
+	"startCol": 6,
+	"startRow": 2,
+	"width": 128,
+	"height": 128,
+	"mainSprite": "barrel",
+	"shadowSprite": null,
+	"mainOffset": {
+		"x1": 8,
+		"x2": 8,
+		"y1": 60,
+		"y2": 16
+	},
+	"shadowOffset": null,
+	"spriteIDs": null,
+	"responses": [
+		"This thing seems to be empty."
+	],
+	"isChanging": false
+}

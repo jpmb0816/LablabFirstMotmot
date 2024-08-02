@@ -1,0 +1,31 @@
+{
+	"name": "Rapthalia",
+	"type": "npc",
+	"startCol": 4,
+	"startRow": 12,
+	"width": 64,
+	"height": 64,
+	"mainSprite": "demi",
+	"shadowSprite": "char-shadow",
+	"mainOffset": {
+		"x1": 8,
+		"x2": 8,
+		"y1": 32,
+		"y2": 4
+	},
+	"shadowOffset": {
+		"x": 0,
+		"y": 5
+	},
+	"instructions": [
+		["down", 4, 15],
+		["right", 7, 15],
+		["left", 4, 15],
+		["up", 4, 12]
+	],
+	"delayPerFrame": 12,
+	"sequences": null,
+	"responses": [
+		"Please, don't hurt me!"
+	]
+}

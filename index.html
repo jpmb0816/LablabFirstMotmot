@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sample RPG</title>
+		<style>
+			body {
+				padding: 0; margin: 0;
+			}
+			canvas {
+				cursor: none;
+			}
+		</style>
+
+		<!--Utils-->
+		<script src="src/utils/Constants.js"></script>
+		<script src="src/utils/Tools.js"></script>
+		<script src="src/utils/FPS.js"></script>
+		<script src="src/utils/Camera.js"></script>
+		<script src="src/utils/Keyboard.js"></script>
+		<script src="src/utils/Mouse.js"></script>
+
+		<!--Map-->
+		<script src="src/map/GameMap.js"></script>
+
+		<!--Animation-->
+		<script src="src/anim/AnimationSprite.js"></script>
+		<script src="src/anim/AnimationThread.js"></script>
+
+		<!--Sprite-->
+		<script src="src/sprite/SingleSprite.js"></script>
+		<script src="src/sprite/MultiSprite.js"></script>
+		<script src="src/sprite/FontSprite.js"></script>
+		<script src="src/sprite/SpriteManager.js"></script>
+		
+		<!--Entity-->
+		<script src="src/entity/Entity.js"></script>
+		<script src="src/entity/StaticEntity.js"></script>
+		<script src="src/entity/DynamicEntity.js"></script>
+		<script src="src/entity/EntityCollection.js"></script>
+		<script src="src/entity/Player.js"></script>
+		<script src="src/entity/NPC.js"></script>
+		<script src="src/entity/SignPost.js"></script>
+		<script src="src/entity/Projectile.js"></script>
+		
+		<!--UI-->
+		<script src="src/ui/LoadingScreen.js"></script>
+		<script src="src/ui/DialogBox.js"></script>
+
+		<!--Others-->
+		<script src="src/others/firework.js"></script>
+
+		<!--SFX-->
+		<!-- <audio id="fireball-whoosh" src="sfx/fx/fireball-whoosh.mp3"></audio>
+		<audio id="fireball-hit" src="sfx/fx/fireball-hit.mp3"></audio> -->
+
+		<!--Main-->
+		<script src="src/Main.js"></script>
+	</head>
+	<body onload="preload()"></body>
+</html>

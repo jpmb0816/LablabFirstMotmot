@@ -1,0 +1,22 @@
+{
+	"name": "Sign",
+	"type": "signpost",
+	"startCol": 9,
+	"startRow": 3,
+	"width": 64,
+	"height": 64,
+	"mainSprite": "sign",
+	"shadowSprite": null,
+	"mainOffset": {
+		"x1": 0,
+		"x2": 0,
+		"y1": 32,
+		"y2": 4
+	},
+	"shadowOffset": null,
+	"spriteIDs": null,
+	"responses": [
+		"..."
+	],
+	"isChanging": false
+}

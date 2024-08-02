@@ -1,0 +1,22 @@
+{
+	"name": "Stone",
+	"type": "signpost",
+	"startCol": 14,
+	"startRow": 5,
+	"width": 64,
+	"height": 128,
+	"mainSprite": "stone-2",
+	"shadowSprite": null,
+	"mainOffset": {
+		"x1": 4,
+		"x2": 6,
+		"y1": 72,
+		"y2": 12
+	},
+	"shadowOffset": null,
+	"spriteIDs": null,
+	"responses": [
+		"I stood in awe of the pillar topped with blooming flowers."
+	],
+	"isChanging": false
+}

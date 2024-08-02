@@ -1,0 +1,29 @@
+{
+	"name": "Arthur",
+	"type": "npc",
+	"startCol": 12,
+	"startRow": 4,
+	"width": 64,
+	"height": 64,
+	"mainSprite": "sawyer",
+	"shadowSprite": "char-shadow",
+	"mainOffset": {
+		"x1": 8,
+		"x2": 8,
+		"y1": 32,
+		"y2": 4
+	},
+	"shadowOffset": {
+		"x": 0,
+		"y": 5
+	},
+	"instructions": [
+		["right", 15, 4],
+		["left", 12, 4]
+	],
+	"delayPerFrame": 12,
+	"sequences": null,
+	"responses": [
+		"I remember when I was young, I used to be an adventurer like you."
+	]
+}

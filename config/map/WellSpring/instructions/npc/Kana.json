@@ -1,0 +1,25 @@
+{
+	"name": "Kana",
+	"type": "signpost",
+	"startCol": 9,
+	"startRow": 5,
+	"width": 64,
+	"height": 64,
+	"mainSprite": "knight",
+	"shadowSprite": "char-shadow",
+	"mainOffset": {
+		"x1": 8,
+		"x2": 8,
+		"y1": 32,
+		"y2": 4
+	},
+	"shadowOffset": {
+		"x": 0,
+		"y": 5
+	},
+	"spriteIDs": [1, 4, 7, 10],
+	"responses": [
+		"Don't mess around."
+	],
+	"isChanging": true
+}

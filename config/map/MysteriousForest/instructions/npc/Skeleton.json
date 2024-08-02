@@ -1,0 +1,28 @@
+{
+  "name": "Grimm",
+  "type": "signpost",
+  "startCol": 8,
+  "startRow": 8,
+  "width": 64,
+  "height": 64,
+  "mainSprite": "skeleton",
+  "shadowSprite": "char-shadow",
+  "mainOffset": {
+    "x1": 8,
+    "x2": 8,
+    "y1": 32,
+    "y2": 4
+  },
+  "shadowOffset": {
+    "x": 0,
+    "y": 5
+  },
+  "spriteIDs": [1, 4, 7, 10],
+  "responses": [
+    "Hey there, adventurer! I have something special for you.",
+    "There is a beautiful spot in the enchanted forest that you must visit. It's just a 100-meter walk north from here.",
+    "Head north and go uphill using the stairs near the signpost.",
+    "Just remember, when you get there, becareful!"
+  ],
+  "isChanging": true
+}

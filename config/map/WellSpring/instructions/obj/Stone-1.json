@@ -1,0 +1,22 @@
+{
+	"name": "Stone",
+	"type": "signpost",
+	"startCol": 3,
+	"startRow": 3,
+	"width": 64,
+	"height": 128,
+	"mainSprite": "stone",
+	"shadowSprite": null,
+	"mainOffset": {
+		"x1": 4,
+		"x2": 6,
+		"y1": 72,
+		"y2": 12
+	},
+	"shadowOffset": null,
+	"spriteIDs": null,
+	"responses": [
+		"..."
+	],
+	"isChanging": false
+}

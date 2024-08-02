@@ -1,0 +1,29 @@
+{
+  "name": "Fairy",
+  "type": "npc",
+  "startCol": 8,
+  "startRow": 15,
+  "width": 64,
+  "height": 64,
+  "mainSprite": "fairy",
+  "shadowSprite": "char-shadow",
+  "mainOffset": {
+    "x1": 8,
+    "x2": 8,
+    "y1": 32,
+    "y2": 4
+  },
+  "shadowOffset": {
+    "x": 0,
+    "y": 15
+  },
+  "instructions": [
+    ["left", 4, 15],
+    ["up", 4, 8],
+    ["down", 4, 15],
+    ["right", 8, 15]
+  ],
+  "delayPerFrame": 12,
+  "sequences": null,
+  "responses": ["Congratulations!"]
+}

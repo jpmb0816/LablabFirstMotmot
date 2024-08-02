@@ -1,0 +1,94 @@
+{
+	"sprites": [
+		{
+			"name": "cursor",
+			"path": "gfx/ui/cursor.png",
+			"multiSprite": true,
+			"width": 15,
+			"height": 19
+		},
+		{
+			"name": "hp-bar",
+			"path": "gfx/ui/hp-bar.png",
+			"multiSprite": true,
+			"width": 110,
+			"height": 11
+		},
+		{
+			"name": "mana-bar",
+			"path": "gfx/ui/mana-bar.png",
+			"multiSprite": true,
+			"width": 110,
+			"height": 11
+		},
+		{
+			"name": "dialog-box",
+			"path": "gfx/ui/dialog-box.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+
+
+
+		{
+			"name": "font-white",
+			"path": "gfx/font/white.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "font-green",
+			"path": "gfx/font/green.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "font-red",
+			"path": "gfx/font/red.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+
+
+
+		{
+			"name": "player",
+			"path": "gfx/char/player.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "char-shadow",
+			"path": "gfx/fx/char.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "fireball",
+			"path": "gfx/fx/fireball.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "hit",
+			"path": "gfx/fx/hit.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		},
+		{
+			"name": "player-g",
+			"path": "gfx/char/knight-2.png",
+			"multiSprite": false,
+			"width": 0,
+			"height": 0
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Fairy",
+  "type": "signpost",
+  "startCol": 7,
+  "startRow": 14,
+  "width": 64,
+  "height": 64,
+  "mainSprite": "fairy-s1",
+  "shadowSprite": "char-shadow",
+  "mainOffset": {
+    "x1": 8,
+    "x2": 8,
+    "y1": 32,
+    "y2": 4
+  },
+  "shadowOffset": {
+    "x": 0,
+    "y": 5
+  },
+  "spriteIDs": [1, 4, 7, 10],
+  "responses": ["Congratulations!"],
+  "isChanging": true
+}
